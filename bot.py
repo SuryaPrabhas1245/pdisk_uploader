@@ -27,8 +27,8 @@ async def start(bot, message):
     await message.reply(
         f"** ⚡ Welcome {message.chat.first_name}!**\n\n"
         "I am the fastest Pdisk Link converter!
-Send any post with pdisk link,
-i will automagically convert the pdisk links to your account ✨\n 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐬 𝐦𝐚𝐝𝐞 𝐛𝐲 @ParitoshPky_Official💖")
+        Send any post with pdisk link,
+       i will automagically convert the pdisk links to your account ✨\n 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐬 𝐦𝐚𝐝𝐞 𝐛𝐲 @suryaprabhas1245💖")
 
 
 @bot.on_message(filters.text & filters.private)
