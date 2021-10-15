@@ -16,7 +16,7 @@ Upload on Pdisk by Url, File and also by direct forward post from other channel.
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/ParitoshPky/pdisk_uploader)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/SuryaPrabhas1245/pdisk_uploader)
 
 ##### Required Variables
 
@@ -28,4 +28,4 @@ Upload on Pdisk by Url, File and also by direct forward post from other channel.
 
 ##### Credit
 
-- Me [Paritosh Kumar](https://github.com/SuryaPrabhas1245) For This Repo
+- Me [Surya Prabhas](https://github.com/SuryaPrabhas1245) For This Repo
