@@ -12,7 +12,7 @@ API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
 PDISK_API_KEY = environ.get('PDISK_API_KEY')
-THUMB_URL = environ.get('THUMB_URL', 'https://telegra.ph/file/1181d9119a13988dfe29c.jpg')
+THUMB_URL = environ.get('THUMB_URL', 'https://telegra.ph/file/581de0dbe77b4d1445e5b.jpg')
 CHANNEL = environ.get('CHANNEL')
 bot = Client('pdisk bot',
              api_id=API_ID,
@@ -25,8 +25,8 @@ bot = Client('pdisk bot',
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**⚡️ Welcome{message.chat.first_name}!**\n\n"
-        "I Am A Personal Pdisk Link Converter... \n Bot Made By @suryaprabhas1245")
+        f"**Welcome ⚡{message.chat.first_name}!**\n\n"
+        "I Am A Pdisk Link Converter Bot , Just Send Me Link Or Full Post \n This Bot Is Made By @suryaprabhas1245⚡")
 
 
 @bot.on_message(filters.text & filters.private)
@@ -147,7 +147,9 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
 ━━━━━━━━━━━━━━━
-©️ @TeluguDubbedHorrorMovies2
+⚙️ How to Download / Watch Online or Change Audio : https://bit.ly/3oj4nY0
+━━━━━━━━━━━━━━━
+⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
 
 bot.run()
