@@ -26,7 +26,7 @@ bot = Client('pdisk bot',
 async def start(bot, message):
     await message.reply(
         f"**Welcome ⚡{message.chat.first_name}!**\n\n"
-        "I Am A Pdisk Link Converter Bot , Just Send Me Link Or Full Post \n This Bot Is Made By @suryaprabhas1245⚡")
+        "I Am A Pdisk Link Converter Bot , Just Send Me Link Or Full Post \n\nThis Bot Is Made By @suryaprabhas1245 ⚡")
 
 
 @bot.on_message(filters.text & filters.private)
